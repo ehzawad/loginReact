@@ -1,0 +1,31 @@
+{
+  "name": "login",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehzShelter/loginReact.git"
+  },
+  "author": "emrul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehzShelter/loginReact/issues"
+  },
+    "homepage": "http://ehzshelter.github.io/loginReact"
+}
