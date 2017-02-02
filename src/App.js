@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import NameField from './NameFieldForm';
 import PasswordField from './PasswordFieldForm';
 
+function validator(field) {
+  const {name, password} = field;
+  if( name.length > 0 && password.length > 0) {
+    return true;
+  }
+  return false;
+}
 
 class App extends Component {
   constructor(props) {
@@ -26,8 +33,7 @@ class App extends Component {
   }
 
   render() {
-    const {name, password} = this.state;
-    const isEnabled = name.length > 0 && password.length > 0;
+    let isEnabled = validator(this.state);
 
     return (
       <div>
