@@ -20,12 +20,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ehzShelter/loginReact.git"
+    "url": "git+https://github.com/ehzawad/loginReact.git"
   },
   "author": "emrul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ehzShelter/loginReact/issues"
+    "url": "https://github.com/ehzawad/loginReact/issues"
   },
-    "homepage": "http://ehzshelter.github.io/loginReact"
+    "homepage": "http://ehzawad.github.io/loginReact"
 }
