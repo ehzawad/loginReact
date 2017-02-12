@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/bin/nodejs /home/hell/.npm-global/bin/yarn
+
+PATH: 
+  /home/hell/.myRuby/bin:/home/hell/Android/Sdk/platform-tools:/home/hell/.cargo/bin:/home/hell/.myJAVAEE/bin:/home/hell/.myTmux/bin:/home/hell/.myVim/bin:/home/hell/.myLLDB/bin:/home/hell/.cmake/bin:/home/hell/.myClang/bin:/home/hell/.myIntellJ/bin:/home/hell/.myJava/db/bin:/home/hell/.myJava/bin:/home/hell/.npm-global/bin:/home/hell/.myNode/bin:/bin:/home/hell/.myPython/bin:/home/hell/.cabal/bin:/home/hell/.tidy/bin:/home/hell/.myGradle/bin:/home/hell/.local/bin:/home/hell/.myJava/db/bin:/home/hell/.myJava/bin:/home/hell/.myJava/db/bin:/home/hell/.myJava/bin:/home/hell/.local/bin:/home/hell/.myJava/db/bin:/home/hell/.myJava/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hell/.fzf/bin:/home/hell/.composer/vendor/bin:/home/hell/.mySqlite/bin:/home/hell/.go/bin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  7.5.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "login",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "react-scripts": "0.8.5"
+    },
+    "dependencies": {
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "deploy": "npm run build&&gh-pages -d build"
+    },
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ehzawad/loginReact.git"
+    },
+    "author": "emrul",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ehzawad/loginReact/issues"
+    },
+      "homepage": "http://ehzawad.github.io/loginReact"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object.exports._errnoException (util.js:1023:11)
+      at errnoException (dns.js:33:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)

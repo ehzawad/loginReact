@@ -19,6 +19,7 @@ class App extends Component {
     this.state = {name: '', password: ''};
   }
 
+
   handleNameChange(syntheticEvent) {
     this.setState({name: syntheticEvent.target.value});
   }
@@ -38,7 +39,7 @@ class App extends Component {
     return (
       <div>
         <form style={{'display': 'table', 'margin': '40px auto', 'alignment': 'center'}} onSubmit={this.handleSubmit}>
-          <NameField name={this.state.name} handleNameChange={this.handleNameChange} />
+          <NameField name={this.state.name} ref={input => this.textInput = input} handleNameChange={this.handleNameChange} />
           <PasswordField password={this.state.password} handlePasswordChange={this.handlePasswordChange} />
           <input disabled={!isEnabled} type="submit" value="Submit" />
         </form>
