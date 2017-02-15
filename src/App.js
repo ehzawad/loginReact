@@ -37,8 +37,8 @@ class App extends Component {
     let isEnabled = validator(this.state);
 
     return (
-      <div>
-        <form style={{'display': 'table', 'margin': '40px auto', 'alignment': 'center'}} onSubmit={this.handleSubmit}>
+      <div style={{'margin': 'auto'}}>
+        <form style={{'display': 'table', 'margin': '180px auto', 'alignment': 'center'}} onSubmit={this.handleSubmit}>
           <NameField name={this.state.name} ref={input => this.textInput = input} handleNameChange={this.handleNameChange} />
           <PasswordField password={this.state.password} handlePasswordChange={this.handlePasswordChange} />
           <input disabled={!isEnabled} type="submit" value="Submit" />

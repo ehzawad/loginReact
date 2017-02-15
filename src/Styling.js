@@ -1,5 +1,6 @@
 const Styling = {
    fieldLabel: {
+    'margin': 'auto',
     'position': 'relative',
     'display': 'block',
     'color': 'crimson',
